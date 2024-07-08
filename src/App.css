@@ -4,13 +4,42 @@ body {
 
 div {
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 
 form div {
   margin-bottom: 10px;
+  font-family: "Roboto";
 }
 
 button {
   padding: 10px;
   font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 4.5rem;
+  border: solid;
+  border-width: 0px;
+  background-color: black;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+input {
+  height: 30px;
+}
+
+.container {
+  background-color: lightblue;
+  height: 90vh;
+  width: 50vw;
+  border-radius: 7px;
 }
